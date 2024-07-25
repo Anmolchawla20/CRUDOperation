@@ -31,6 +31,7 @@ public class ConnectionClass {
 		pst.setString(2, s.getAddress());
 		pst.setString(3, s.getStd());
 		int i= pst.executeUpdate();
+		System.out.println("just for git check");
 		
 		if(i>0)
 			System.out.println("insert successful");
